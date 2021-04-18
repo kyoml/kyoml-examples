@@ -1,0 +1,20 @@
+{
+  "name": "kyoml-examples",
+  "version": "0.0.1",
+  "description": "A set of KyoML examples",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "kyoml",
+    "examples",
+    "project"
+  ],
+  "author": "Patrick",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "kyoml": "^0.4.1"
+  }
+}

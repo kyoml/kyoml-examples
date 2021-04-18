@@ -1,0 +1,7 @@
+
+
+table = "users"
+
+data {
+  emails = "https://jsonplaceholder.typicode.com/${table}" |> @fetch |> @mapBy('email')
+}

@@ -1,0 +1,12 @@
+secrets {
+  api_keys {
+    github = "SECRET"
+  }
+}
+
+config {
+  @extend('secrets.api_keys')
+
+  host = '127.0.0.1'
+  port = 1234
+}
